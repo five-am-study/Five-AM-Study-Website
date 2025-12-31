@@ -1,0 +1,40 @@
+{#-
+  Custom TOC with Discord button in right sidebar
+-#}
+
+{# Set TOC title #}
+{% set title = lang.t("toc") %}
+{% if config.mdx_configs.toc and config.mdx_configs.toc.title %}
+  {% set title = config.mdx_configs.toc.title %}
+{% endif %}
+
+{# Prepare TOC structure #}
+{% set toc = page.toc %}
+{% set first = toc | first %}
+{% if first and first.level == 1 %}
+  {% set toc = first.children %}
+{% endif %}
+
+{# Discord Button - only in right sidebar (nav_item is undefined in right sidebar context) #}
+{% if not nav_item %}
+  <div class="discord-button-container">
+    <a href="https://discord.gg/jf36RcR7zm" target="_blank" class="discord-button-link">
+      <img src="{{ base_url }}/img/discord.png" alt="Join us on Discord" class="discord-button-image">
+    </a>
+  </div>
+{% endif %}
+
+{# Table of Contents Navigation #}
+<nav class="md-nav md-nav--secondary" aria-label="{{ title | e }}">
+  {% if toc %}
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      {{ title }}
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      {% for toc_item in toc %}
+        {% include "partials/toc-item.html" %}
+      {% endfor %}
+    </ul>
+  {% endif %}
+</nav>

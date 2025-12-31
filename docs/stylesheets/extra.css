@@ -1,0 +1,388 @@
+/* 5 AM Study - Warm Dark Theme */
+
+/* ============================================
+   CSS CUSTOM PROPERTIES
+   ============================================ */
+
+:root {
+    /* Core palette */
+    --5am-bg: #1a1a1a;
+    --5am-bg-surface: #252525;
+    --5am-border: #333333;
+
+    /* Text colors */
+    --5am-text: #e8e6e3;
+    --5am-text-muted: #a0a0a0;
+    --5am-text-faint: #666666;
+
+    /* Accent */
+    --5am-accent: #ff5722;
+    --5am-accent-hover: #ff7043;
+    --5am-accent-muted: #ff8a65;
+}
+
+/* ============================================
+   MATERIAL THEME OVERRIDES
+   ============================================ */
+
+[data-md-color-scheme="slate"] {
+    /* Primary/accent */
+    --md-primary-fg-color: var(--5am-accent);
+    --md-primary-fg-color--light: var(--5am-accent-hover);
+    --md-primary-fg-color--dark: var(--5am-accent);
+    --md-primary-bg-color: var(--5am-bg);
+    --md-accent-fg-color: var(--5am-accent);
+    --md-accent-fg-color--transparent: rgba(255, 87, 34, 0.1);
+    --md-accent-bg-color: var(--5am-bg);
+
+    /* Backgrounds & text */
+    --md-default-bg-color: var(--5am-bg);
+    --md-default-fg-color: var(--5am-text);
+    --md-default-fg-color--light: var(--5am-text-muted);
+    --md-default-fg-color--lighter: var(--5am-text-muted);
+    --md-default-fg-color--lightest: var(--5am-text-faint);
+
+    /* Code */
+    --md-code-bg-color: var(--5am-bg-surface);
+    --md-code-fg-color: var(--5am-text);
+
+    /* Typography */
+    --md-typeset-color: var(--5am-text);
+    --md-typeset-a-color: var(--5am-accent);
+
+    /* Header & footer */
+    --md-header-bg-color: var(--5am-bg);
+    --md-header-fg-color: var(--5am-text);
+    --md-footer-bg-color: var(--5am-bg);
+    --md-footer-bg-color--dark: var(--5am-bg);
+    --md-footer-fg-color: var(--5am-text-muted);
+    --md-footer-fg-color--light: var(--5am-text-faint);
+}
+
+/* ============================================
+   TYPOGRAPHY
+   ============================================ */
+
+.md-typeset {
+    font-size: 0.85rem;
+    line-height: 1.7;
+}
+
+.md-typeset h1,
+.md-typeset h2,
+.md-typeset h3,
+.md-typeset h4 {
+    color: var(--5am-text);
+    font-weight: 600;
+}
+
+.md-typeset h1 {
+    margin-bottom: 1.5rem;
+}
+
+.md-typeset p {
+    margin-bottom: 1.25rem;
+}
+
+.md-typeset hr {
+    border-color: var(--5am-border);
+    margin: 2rem 0;
+}
+
+/* ============================================
+   LINKS
+   ============================================ */
+
+a {
+    color: var(--5am-accent);
+    text-decoration: none;
+    transition: color 0.2s ease;
+}
+
+a:hover {
+    color: var(--5am-accent-hover);
+}
+
+.md-typeset a:hover {
+    text-decoration: underline;
+}
+
+/* ============================================
+   HEADER & NAVIGATION TABS
+   ============================================ */
+
+.md-header {
+    background-color: var(--5am-bg);
+    border-bottom: 1px solid var(--5am-border);
+}
+
+.md-header__button,
+.md-header__title,
+.md-header__topic,
+.md-header .md-icon {
+    color: var(--5am-text);
+}
+
+.md-tabs {
+    background-color: var(--5am-bg);
+    border-bottom: 1px solid var(--5am-border);
+}
+
+.md-tabs__link {
+    color: var(--5am-text-muted);
+    opacity: 1;
+    transition: color 0.2s ease;
+}
+
+.md-tabs__link:hover {
+    color: var(--5am-text);
+}
+
+.md-tabs__item--active > .md-tabs__link {
+    color: var(--5am-accent);
+}
+
+.md-tabs__item--active > .md-tabs__link:hover {
+    color: var(--5am-accent-hover);
+}
+
+/* ============================================
+   SIDEBAR NAVIGATION
+   ============================================ */
+
+.md-nav__link {
+    color: var(--5am-text-muted);
+    transition: color 0.2s ease;
+}
+
+.md-nav__link:hover {
+    color: var(--5am-text);
+}
+
+.md-nav__item--nested > .md-nav__link {
+    color: var(--5am-text);
+}
+
+.md-nav--lifted > .md-nav__list > .md-nav__item--active > .md-nav__link {
+    background: var(--5am-bg);
+    box-shadow: none !important;
+}
+
+.md-nav__link--active,
+.md-nav__item--active > .md-nav__link {
+    color: var(--5am-accent) !important;
+    font-weight: 500;
+}
+
+.md-nav__link--active:focus,
+.md-nav__link--active:hover {
+    color: var(--5am-accent-hover) !important;
+}
+
+/* ============================================
+   CODE
+   ============================================ */
+
+.md-typeset code {
+    background-color: var(--5am-bg-surface);
+    color: var(--5am-accent-muted);
+    padding: 0.15em 0.4em;
+    border-radius: 4px;
+    font-size: 0.9em;
+}
+
+.md-typeset pre {
+    background-color: var(--5am-bg-surface);
+    border-radius: 6px;
+    border: 1px solid var(--5am-border);
+}
+
+.md-typeset pre code {
+    color: var(--5am-text);
+    padding: 0;
+    background: transparent;
+}
+
+.md-clipboard {
+    color: var(--5am-text-muted);
+}
+
+.md-clipboard:hover {
+    color: var(--5am-accent);
+}
+
+/* ============================================
+   ADMONITIONS
+   ============================================ */
+
+.md-typeset .admonition {
+    background-color: var(--5am-bg-surface);
+    border: 1px solid var(--5am-border);
+    border-left: 4px solid var(--5am-accent);
+    border-radius: 4px;
+    box-shadow: none;
+}
+
+.md-typeset .admonition-title {
+    background-color: transparent;
+    border-bottom: 1px solid var(--5am-border);
+    padding: 0.6rem 1rem;
+}
+
+.md-typeset .admonition-title::before {
+    color: var(--5am-accent);
+}
+
+.md-typeset .admonition.warning {
+    border-left-color: #ffa726;
+}
+
+.md-typeset .admonition.example {
+    border-left-color: var(--5am-text-muted);
+}
+
+/* ============================================
+   BUTTONS
+   ============================================ */
+
+.md-button {
+    background-color: transparent;
+    color: var(--5am-text);
+    border: 2px solid var(--5am-accent);
+    border-radius: 4px;
+    padding: 0.6em 1.2em;
+    font-weight: 500;
+    transition: all 0.2s ease;
+}
+
+.md-button:hover {
+    background-color: var(--5am-accent);
+    color: var(--5am-bg);
+    border-color: var(--5am-accent);
+}
+
+.md-button--primary {
+    background-color: var(--5am-accent);
+    color: var(--5am-bg);
+    border-color: var(--5am-accent);
+}
+
+.md-button--primary:hover {
+    background-color: var(--5am-text);
+    border-color: var(--5am-text);
+    color: var(--5am-accent);
+}
+
+/* ============================================
+   SEARCH
+   ============================================ */
+
+.md-search__input {
+    background-color: var(--5am-bg-surface);
+    color: var(--5am-text);
+    border-radius: 4px;
+}
+
+.md-search__input::placeholder {
+    color: var(--5am-text-faint);
+}
+
+.md-search__icon {
+    color: var(--5am-text-muted);
+}
+
+/* ============================================
+   FOOTER
+   ============================================ */
+
+.md-footer {
+    background-color: var(--5am-bg);
+    border-top: 1px solid var(--5am-border);
+}
+
+.md-footer a {
+    color: var(--5am-text-muted);
+}
+
+.md-footer a:hover {
+    color: var(--5am-accent);
+}
+
+/* ============================================
+   TABLES
+   ============================================ */
+
+.md-typeset table:not([class]) {
+    border: 1px solid var(--5am-border);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.md-typeset table:not([class]) th {
+    background-color: var(--5am-bg-surface);
+    color: var(--5am-text);
+    font-weight: 600;
+}
+
+.md-typeset table:not([class]) td {
+    border-top: 1px solid var(--5am-border);
+}
+
+/* ============================================
+   LAYOUT
+   ============================================ */
+
+.md-content__inner {
+    padding-top: 1.5rem;
+    padding-bottom: 3rem;
+}
+
+/* ============================================
+   SCROLLBAR
+   ============================================ */
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: var(--5am-bg);
+}
+
+::-webkit-scrollbar-thumb {
+    background: var(--5am-border);
+    border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: var(--5am-text-faint);
+}
+
+/* ============================================
+   DISCORD BUTTON (RIGHT SIDEBAR)
+   ============================================ */
+
+.discord-button-container {
+    text-align: center;
+    margin-bottom: 1.5rem;
+    padding: 0 0.6rem;
+}
+
+.discord-button-link {
+    display: block;
+}
+
+.discord-button-image {
+    width: 100%;
+    max-width: 240px;
+    border-radius: 8px;
+    transition:
+        opacity 0.2s ease,
+        transform 0.2s ease;
+}
+
+.discord-button-image:hover {
+    opacity: 0.85;
+    transform: scale(1.02);
+}
