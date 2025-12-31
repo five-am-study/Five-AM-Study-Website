@@ -1,20 +1,6 @@
-# Example Guide Subpage
+# Guide
 
-This is a template for creating new guide pages.
-
----
-
-## Section 1
-
-Your content here.
-
----
-
-## Section 2
-
-More content here.
-
----
+Coming soon...
 
 <!-- 
 ================================================================================

@@ -1,16 +1,30 @@
+# ==============================================================================
+# SITE INFORMATION
+# ==============================================================================
 site_name: Five AM Study
 site_url: https://5amstudy.com
-site_description: The most dedicated and passionate IT studying community. We're not here to prove we're smart - we're here to learn efficiently.
+site_description: >-
+    The most dedicated and passionate IT studying community.
+    We're not here to prove we're smart - we're here to learn efficiently.
 
+# ==============================================================================
+# THEME CONFIGURATION
+# ==============================================================================
 theme:
     name: material
     custom_dir: docs/overrides
+
+    # Icons
     favicon: favicon_io/favicon.ico
     logo: favicon_io/android-chrome-192x192.png
+
+    # Color scheme
     palette:
         scheme: slate
         primary: custom
         accent: custom
+
+    # Features
     features:
         - navigation.tabs
         - navigation.sections
@@ -19,34 +33,55 @@ theme:
         - search.suggest
         - search.highlight
         - content.code.copy
+
+    # Typography
     font:
         text: Roboto
         code: Roboto Mono
 
+# ==============================================================================
+# NAVIGATION
+# ==============================================================================
 nav:
     - Home:
           - Home: index.md
+          - Quick Start: getting_started.md
           - Success Stories: success-stories.md
+
     - Guide:
-          - Guide: guide.md
           - Example Subpage: guide/example-subpage.md
+
     - Resources:
           - Roadmaps: roadmaps/index.md
           - Example Subpage: resources/example-subpage.md
 
+# ==============================================================================
+# PLUGINS
+# ==============================================================================
 plugins:
     - search
 
+# ==============================================================================
+# CUSTOM STYLING
+# ==============================================================================
 extra_css:
     - stylesheets/extra.css
 
+# ==============================================================================
+# MARKDOWN EXTENSIONS
+# ==============================================================================
 markdown_extensions:
+    # Content features
     - admonition
-    - pymdownx.details
-    - pymdownx.superfences
+    - attr_list
+    - md_in_html
+
+    # Code highlighting
     - pymdownx.highlight:
           anchor_linenums: true
     - pymdownx.inlinehilite
+    - pymdownx.superfences
     - pymdownx.snippets
-    - attr_list
-    - md_in_html
+
+    # Collapsible content
+    - pymdownx.details

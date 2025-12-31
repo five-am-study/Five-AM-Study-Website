@@ -20,7 +20,8 @@ Five AM Study isn't about waking up at 5 AM. It's about **putting yourself first
 
 ## Quick Links
 
-[Get Started](guide.md){ .md-button .md-button--primary }
+[Get Started](getting_started.md){ .md-button .md-button--primary }
+[Read the guide](guide.md){ .md-button .md-button--secondary }
 [View Resources](resources.md){ .md-button .md-button--secondary }
 
 ---

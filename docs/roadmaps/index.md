@@ -1,23 +1,6 @@
 # IT Learning Roadmaps
 
-Structured learning paths for various IT fields.
-
----
-
-## Available Roadmaps
-
-*Add your first roadmap here!*
-
----
-
-## How to Use Roadmaps
-
-1. Pick a path that matches your goals
-2. Follow the steps in order
-3. Build projects along the way
-4. Share progress in Discord
-
----
+Coming soon...
 
 <!-- 
 ================================================================================

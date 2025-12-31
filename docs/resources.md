@@ -1,20 +1,6 @@
 # Learning Resources
 
-Curated study materials, tools, and learning paths.
-
----
-
-## Study Tools
-
-- Tool 1 - Description
-- Tool 2 - Description
-
----
-
-## Learning Platforms
-
-- Platform 1 - Description
-- Platform 2 - Description
+Coming soon...
 
 ---
 

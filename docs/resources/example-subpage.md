@@ -1,29 +1,6 @@
-# Example Resource Page
+# Resources
 
-This is a template for creating new resource pages.
-
----
-
-## Resources List
-
-- [Resource 1](#) - Description
-- [Resource 2](#) - Description
-
----
-
-## Categorized Resources
-
-### Category A
-
-- Item 1
-- Item 2
-
-### Category B
-
-- Item 1
-- Item 2
-
----
+Coming soon...
 
 <!-- 
 ================================================================================
