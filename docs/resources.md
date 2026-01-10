@@ -55,7 +55,7 @@ Battle tested tools and resources used by the Five AM Study Crew.
 
 IT learning paths to guide your study journey.
 
-*Coming soon...*
+- [SRE Roadmap](roadmaps/sre-roadmap.md) - Comprehensive path to becoming a Site Reliability Engineer
 
 ---
 
@@ -64,7 +64,7 @@ IT learning paths to guide your study journey.
 Structured problem lists to guide your practice:
 
 - [NeetCode 150](https://neetcode.io/roadmap) - The best roadmap for learning algorithmic thinking and offers the right amount of struggle for people who already have graduated or have a few years of experience but feel their DSA skills are shaky.
-- [Strivers A2Z] - The best roadmap for learning DSA from very basics, it's perfect for people who feel lost while doing NeetCode 150.
+- [Strivers A2Z](https://takeuforward.org/dsa/strivers-a2z-sheet-learn-dsa-a-to-z) - The best roadmap for learning DSA from very basics, it's perfect for people who feel lost while doing NeetCode 150.
 - [Grind 75](https://www.techinterviewhandbook.org/grind75) - If you're short on time and wanna prepare for an interview asap. This is for you.
 
 ---

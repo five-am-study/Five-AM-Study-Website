@@ -43,7 +43,9 @@ theme:
 nav:
     - Home: index.md
     - Guide: guide.md
-    - Resources: resources.md
+    - Resources:
+          - Overview: resources.md
+          - SRE Roadmap: roadmaps/sre-roadmap.md
     - LeetCode: leetcode.md
 
 # ==============================================================================
@@ -76,3 +78,8 @@ markdown_extensions:
 
     # Collapsible content
     - pymdownx.details
+
+    # Task lists (checkboxes)
+    - pymdownx.tasklist:
+          custom_checkbox: true
+          clickable_checkbox: true
