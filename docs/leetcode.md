@@ -13,6 +13,10 @@ A structured approach to algorithmic problem solving.
 - When doing [**NeetCode 150**](https://neetcode.io/roadmap), think about how the section's previous exercises apply to the current problem.
 - Struggle productively and be consistent.
 
+??? tip "What's [neetcode](https://neetcode.io)?"
+    Think of it as repository of solutions to LeetCode exercises.  
+    Highly recommended for their roadmap which gives structure.  
+
 ---
 
 ## The Process
@@ -26,9 +30,7 @@ A structured approach to algorithmic problem solving.
     - Input/output constraints
 - Calculate the **Complexity Budget**: given the constraints, what's the worst complexity that would pass?
 
-??? tip "What's neetcode?"
-    Think of it as repository of solutions to LeetCode exercises.  
-    Highly recommended for their roadmap which gives structure.  
+
 
 ### 2. Plan Before Coding
 
