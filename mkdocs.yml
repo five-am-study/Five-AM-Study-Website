@@ -27,9 +27,7 @@ theme:
     # Features
     features:
         - navigation.tabs
-        - navigation.sections
         - navigation.top
-        - navigation.indexes
         - search.suggest
         - search.highlight
         - content.code.copy
@@ -43,17 +41,10 @@ theme:
 # NAVIGATION
 # ==============================================================================
 nav:
-    - Home:
-          - Home: index.md
-          - Quick Start: getting_started.md
-          - Success Stories: success-stories.md
-
-    - Guide:
-          - Example Subpage: guide/example-subpage.md
-
-    - Resources:
-          - Roadmaps: roadmaps/index.md
-          - Example Subpage: resources/example-subpage.md
+    - Home: index.md
+    - Guide: guide.md
+    - Resources: resources.md
+    - LeetCode: leetcode.md
 
 # ==============================================================================
 # PLUGINS
@@ -62,7 +53,7 @@ plugins:
     - search
 
 # ==============================================================================
-# CUSTOM STYLING
+# CUSTOM STYLING & SCRIPTS
 # ==============================================================================
 extra_css:
     - stylesheets/extra.css
