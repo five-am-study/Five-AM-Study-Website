@@ -49,6 +49,7 @@ nav:
     - Resources:
           - Overview: resources.md
           - SRE Roadmap: roadmaps/sre-roadmap.md
+          - 5AM 55: roadmaps/5am-55.md
     - LeetCode: leetcode.md
 
 # ==============================================================================

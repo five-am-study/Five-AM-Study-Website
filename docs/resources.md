@@ -92,4 +92,6 @@ Structured problem lists to guide your practice:
 !!! tip "5AM Community Discount"
     Get 10% off Deep-ML Premium with our [referral link](https://www.deep-ml.com/premium?ref=fiveamstudy). Supports the Five AM Study community.
 
+- [5AM 55](roadmaps/5am-55.md) - 55 exercises to build the ML foundation that will set you apart
+
 
