@@ -41,7 +41,10 @@ theme:
 # NAVIGATION
 # ==============================================================================
 nav:
-    - Home: index.md
+    - Home:
+          - index.md
+          - Quick Start: getting_started.md
+          - Success Stories: success-stories.md
     - Guide: guide.md
     - Resources:
           - Overview: resources.md
@@ -61,6 +64,12 @@ extra_css:
     - stylesheets/extra.css
 
 # ==============================================================================
+# EXTRA CONFIGURATION
+# ==============================================================================
+extra:
+    discord_url: https://discord.gg/jf36RcR7zm
+
+# ==============================================================================
 # MARKDOWN EXTENSIONS
 # ==============================================================================
 markdown_extensions:
@@ -69,7 +78,13 @@ markdown_extensions:
     - attr_list
     - md_in_html
 
-    # Code highlighting
+    # Icons
+    - pymdownx.emoji:
+          emoji_index: !!python/name:material.extensions.emoji.twemoji
+          emoji_generator:
+              !!python/name:material.extensions.emoji.to_svg # Code highlighting
+
+
     - pymdownx.highlight:
           anchor_linenums: true
     - pymdownx.inlinehilite

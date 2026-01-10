@@ -6,6 +6,14 @@ Battle tested tools and resources used by the Five AM Study Crew.
 
 ## Tools
 
+### Spaced Repetition
+
+[Anki](https://apps.ankiweb.net/) - I highly recommend using anki it's not only a powerful flashcard app.   
+**It's an automated spaced repetition scheduling system - a powerhouse.**  
+I learnt Japanese via it and passed the highest level certificate for foreigners (JLPT N1).    
+IT professionals are sleeping on this tool.  
+
+
 ### Pomodoro Timer
 
 [Pomotroid](https://pomotroid.com/) - A simple, customizable Pomodoro timer for your desktop.
@@ -59,6 +67,14 @@ IT learning paths to guide your study journey.
 
 ---
 
+## Certificates
+
+Resources for IT certification preparation.
+
+*Coming soon...*
+
+---
+
 ## LeetCode Paths
 
 Structured problem lists to guide your practice:
@@ -76,52 +92,4 @@ Structured problem lists to guide your practice:
 !!! tip "5AM Community Discount"
     Get 10% off Deep-ML Premium with our [referral link](https://www.deep-ml.com/premium?ref=fiveamstudy). Supports the Five AM Study community.
 
-<!-- 
-================================================================================
-HOW TO EDIT THIS PAGE
-================================================================================
 
-This file is located at: docs/resources.md
-
-ADDING RESOURCES:
-Use bullet lists with links:
-
-- [Resource Name](https://example.com) - Short description
-- [Another Resource](https://example.com) - Description
-
-Or use a table:
-
-| Resource | Description | Link |
-|----------|-------------|------|
-| Name     | What it is  | [Visit](url) |
-
-ORGANIZING BY CATEGORY:
-Use headings to group resources:
-
-## Category Name
-
-- Resource 1
-- Resource 2
-
-## Another Category
-
-- Resource 3
-
-ADDING SUB-PAGES:
-1. Create a new file in docs/resources/ (e.g., docs/resources/books.md)
-2. Add to mkdocs.yml:
-   
-   nav:
-       - Resources:
-           - Resources: resources.md
-           - Books: resources/books.md
-
-See docs/resources/example-subpage.md for a template.
-
-ADMONITION FOR FEATURED RESOURCES:
-
-!!! tip "Featured"
-    [Resource Name](url) - Why this is great
-
-================================================================================
--->

@@ -7,23 +7,7 @@
 
 **Start:** 4th January, 2025  
 **Last update:** 10.01.2026  
-Join our [discord server](https://discord.gg/JUjZJn9JmR)
-
----
-
-## LeetCode Progress
-
-**84** problems (10.01.2026)
-
-| Milestone | Target | Status |
-|-----------|--------|--------|
-| Silver | 150 | :material-checkbox-blank-outline: |
-| Gold | 300 | :material-checkbox-blank-outline: |
-| Diamond | 500 | :material-checkbox-blank-outline: |
-| Master | 1000 | :material-checkbox-blank-outline: |
-
-!!! warning "Quality over quantity"
-    It's much better to deeply understand 300 problems than to do 1000 shallowly. Remember this.
+Join our [discord server](https://discord.gg/jf36RcR7zm)
 
 ---
 
@@ -42,8 +26,9 @@ This section is new (as of 29.07.2025) and contains suggestions on what is good 
 
 ### Programming
 
-- [ ] LeetCode 150 (NeetCode roadmap)
-    - Leetcode DSA course + revisit solved questions
+- [ ] [LeetCode 150 (NeetCode roadmap)](../leetcode.md) - See our [LeetCode Paths](../resources.md#leetcode-paths) for alternatives
+    - If necessary do take a DSA course
+    - Revisit solved questions using [Anki](../resources.md#spaced-repetition)
 - [ ] Ultimate Go: Language Guide (ArdanLabs)
 - [ ] Fluent Python (chapters 1-6)
 
@@ -83,7 +68,7 @@ This section is new (as of 29.07.2025) and contains suggestions on what is good 
 
 ## Certs in Foundation Phase
 
-If you like certificates these are worthwhile at this stage.
+If you like certificates these are worthwhile at this stage. See [Certificates](../resources.md#certificates) for prep resources.
 
 ### Kubernetes
 
@@ -155,7 +140,7 @@ If you like certificates these are worthwhile at this stage.
 
 ### Programming - LeetCode 250 total
 
-- Use https://algo.monster/flowchart
+- See [LeetCode Paths](../resources.md#leetcode-paths) and [LeetCode page](../leetcode.md) for strategies
 
 ### Community
 
@@ -208,7 +193,7 @@ If you like certificates these are worthwhile at this stage.
 
 ### LeetCode
 
-- 300 total
+- 300 total - See [LeetCode page](../leetcode.md)
 
 ### Programming
 

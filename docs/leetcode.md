@@ -4,6 +4,18 @@ A structured approach to algorithmic problem solving.
 
 ---
 
+## Progress
+
+<div class="progress-track" markdown>
+<span class="current">84</span> ────●──────────●──────────●──────────●
+<span class="milestones">150 Silver · 300 Gold · 500 Diamond · 1000 Master</span>
+</div>
+
+!!! warning "Quality over quantity"
+    It's much better to deeply understand 300 problems than to do 1000 shallowly.
+
+---
+
 ## Beginner Tips 
 *From a Google Engineer:*
 
