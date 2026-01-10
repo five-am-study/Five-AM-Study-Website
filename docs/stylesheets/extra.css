@@ -458,7 +458,8 @@ a:hover {
 
 .progress-track {
     font-family: var(--md-code-font-family);
-    padding: 1.5rem 0;
+    padding: 2.5rem 0 1.5rem 0;
+    overflow: visible;
 }
 
 .progress-status {
@@ -482,6 +483,7 @@ a:hover {
     border: 1px solid var(--5am-border);
     margin: 0 auto;
     max-width: 100%;
+    overflow: visible;
 }
 
 .progress-bar-fill {
