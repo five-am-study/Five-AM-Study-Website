@@ -3,6 +3,7 @@
 A structured approach to algorithmic problem solving.
 
 ---
+
 <div class="progress-track">
 <div class="progress-status">Pat's LeetCode Status: <span class="progress-count">84</span></div>
 <div class="progress-bar-container">
