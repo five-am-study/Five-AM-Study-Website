@@ -15,10 +15,15 @@ Join our [discord server](https://discord.gg/JUjZJn9JmR)
 
 **84** problems (10.01.2026)
 
-- [ ] Silver Leetcoder: 150 problems
-- [ ] Gold LeetCoder: 300 problems
-- [ ] Diamond LeetCoder: 500 problems
-- [ ] Master LeetCoder: 1000 problems
+| Milestone | Target | Status |
+|-----------|--------|--------|
+| Silver | 150 | :material-checkbox-blank-outline: |
+| Gold | 300 | :material-checkbox-blank-outline: |
+| Diamond | 500 | :material-checkbox-blank-outline: |
+| Master | 1000 | :material-checkbox-blank-outline: |
+
+!!! warning "Quality over quantity"
+    It's much better to deeply understand 300 problems than to do 1000 shallowly. Remember this.
 
 ---
 
