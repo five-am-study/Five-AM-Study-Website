@@ -4,15 +4,29 @@ A structured approach to algorithmic problem solving.
 
 ---
 
-## Progress
+## Pat's LeetCode Progress
 
-<div class="progress-track" markdown>
-<span class="current">84</span> ────●──────────●──────────●──────────●
-<span class="milestones">150 Silver · 300 Gold · 500 Diamond · 1000 Master</span>
+<div class="progress-track">
+<div class="progress-status">LeetCode Status: <span class="progress-count">84</span></div>
+<div class="progress-bar-container">
+<div class="progress-bar-fill" style="width: 8.4%;"></div>
+<div class="progress-checkpoint" style="left: 15%;" data-label="150 Silver"></div>
+<div class="progress-checkpoint" style="left: 30%;" data-label="300 Gold"></div>
+<div class="progress-checkpoint" style="left: 50%;" data-label="500 Diamond"></div>
+<div class="progress-checkpoint" style="left: 100%;" data-label="1000 Master"></div>
+</div>
+<div class="progress-labels">
+<span style="left: 15%;">150</span>
+<span style="left: 30%;">300</span>
+<span style="left: 50%;">500</span>
+<span style="left: 100%;">1000</span>
+</div>
 </div>
 
 !!! warning "Quality over quantity"
-    It's much better to deeply understand 300 problems than to do 1000 shallowly.
+    It's much better to deeply understand 300 problems than to do 1000 shallowly.  
+    Be a master of 150, not a silver of a 1000.  
+    Remember this.
 
 ---
 
