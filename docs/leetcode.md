@@ -2,6 +2,11 @@
 
 A structured approach to algorithmic problem solving.
 
+```
+I am not here to prove I am smart.
+I am here to learn efficiently.
+```
+
 ---
 
 <div class="progress-track">
@@ -28,7 +33,17 @@ A structured approach to algorithmic problem solving.
 
 ---
 
-## Beginner Tips 
+## Timers
+
+| Difficulty | New Problem | Revisit |
+|------------|-------------|---------|
+| Easy       | 15 min      | 5 min   |
+| Medium     | 25 min      | 10 min  |
+| Hard       | 40 min      | 20 min  |
+
+---
+
+## Beginner Tips
 *From a Google Engineer:*
 
 - Take it easy - it's okay to feel overwhelmed at the start. Relax, take a sip of tea, and do your best.
@@ -49,23 +64,18 @@ A structured approach to algorithmic problem solving.
 
 - Read the problem statement **twice**
 - Summarize in two sentences: what's the input, what's the required output?
-- Enumerate:
-    - 3 edge cases (if possible)
-    - Input/output constraints
-- Calculate the **Complexity Budget**: given the constraints, what's the worst complexity that would pass?
+- Work on paper a small example
+- Write the constraints
 
+### 2. Come Up With a Solid Plan
 
+- **What do you know about the problem?**
+- **What's the one small thing you can try?**
+- **First, solve it in any way - brute force**, then optimize
+- The logic must be sound **before implementation** begins
 
-### 2. Plan Before Coding
+### 3. Only Then, Write Code
 
-- **Review known patterns** - which applies here and why?
-- **Solve it any way first** (brute force), then optimize
-- **Write pseudocode** for the algorithm
-- Logic must be sound **before implementation** begins
-
-### 3. Write Code
-
-- Write imports first
 - Debugging should be minimal if the plan is solid
 - **Never randomly change code** (e.g., `-1` to `+1`, `<=` to `<`)
 
@@ -77,6 +87,36 @@ A structured approach to algorithmic problem solving.
 
 !!! warning "About LeetCode Metrics"
     LeetCode's time & memory measurements are notoriously noisy and unreliable. The percentiles are not useful for interview prep or understanding algorithmic efficiency. In fact they can be harmful.
+
+---
+
+## Constraint to Complexity Cheat Sheet
+
+| Input Size (n) | Max Viable Complexity | Common Approaches |
+|---|---|---|
+| n <= 10 | O(n!) | Brute force, permutations |
+| n <= 20 | O(2^n) | Backtracking, bitmask DP |
+| n <= 100 | O(n^3) | Floyd-Warshall, triple nested loops |
+| n <= 1,000 | O(n^2) | Nested loops, simple DP |
+| n <= 10,000 | O(n^2) borderline | Optimized quadratic, may need O(n log n) |
+| n <= 100,000 (10^5) | O(n log n) | Sorting, heaps, divide & conquer |
+| n <= 1,000,000 (10^6) | O(n) | Linear scan, hash maps, two pointers |
+| n <= 10^7+ | O(n) or O(log n) | Math tricks, binary search on answer |
+
+### Quick Heuristics
+
+- **10^8 operations** ~ 1 second (rough ceiling for most judges)
+- If n^2 > 10^8, you need a better approach
+- Sorting is "free" at O(n log n) - often a good first step
+- Hash map gives O(1) lookup - turns O(n^2) into O(n)
+- If stuck, ask: "What would I need to make this O(n)?"
+
+---
+
+## Interview Specific Drills
+
+- Set a timer to beep every 60 seconds to build the habit of talking while coding
+- Every beep you need to summarize your current state in one or two sentences
 
 ---
 
@@ -124,7 +164,7 @@ Use this prompt to get structured feedback on your solutions:
     ---
 
     Context: This is part of an elite engineering training program targeting 
-    1850+ LeetCode elo and senior SWE roles. Optimize feedback for 
+    1850+ LeetCode elo and senior SRE/MLE roles. Optimize feedback for 
     learning, not ego.
     ```
 
